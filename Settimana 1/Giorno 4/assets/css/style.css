@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    background-image: url(../img/sfondo.png);
+    background-size: cover;
+}
+
+header{
+    background-image: linear-gradient(to right, rgba(0,160,198,1) , rgba(3,109,134,1));
+    border: 2px solid black;
+    box-shadow: 5px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header li{
+    list-style-type: none;
+    
+}
+
+header a:hover{
+    color: red;
+}
+
+
+
+main{
+    border: 2px solid black;
+    box-shadow: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+code{
+    border: 1px solid black;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+}
+
+iframe{
+    width: 100%;
+    height: 50%;
+
+}
+
+table{
+    border-bottom: 2px solid blue;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+thead tr{
+    background-color: rgb(59, 101, 216);
+    color: white;
+}
+
+iframe{
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+section{
+    border: 2px solid lightgray;
+    background-color: lightgray;
+}
+
+.correlati{
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    margin-bottom: 15px;
+}
+
+#user_email{
+    border-bottom: 2px dotted black;
+}
+
+button{
+    background-color: rgb(42, 66, 164);
+    color: white;
+}
+
+.data{
+    text-align: end;
+}
+
+
+footer{
+    background-image: linear-gradient(to right, rgba(0,160,198,1) , rgba(3,109,134,1));
+    border: 2px solid black;
+    box-shadow: 5px;
+    margin: 10px;
+}
