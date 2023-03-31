@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&display=swap');
+
+/* Reset */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.65;
+    text-align: center;
+    color: #393d41;
+}
+
+/* Header */
+header {
+    background-color: black;
+    max-width: 100%;
+    padding: 10%;
+}
+
+header img{
+    width: 50%;
+}
+
+/* Main */
+.introduzione{
+    background-image: url(/ProgettoSettimana01/assets/img/banner.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 5%;
+    font-size: 2.5em;
+}
+
+.introduzione h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-size: 1.8em;
+}
+
+.introduzione a{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 5%;
+    padding: 3% 8%;
+}
+
+.informazioni{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2.2em;
+}
+
+.informazioni h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-size: 1.0em;
+    }
+
+.circolare img{
+        width: 80%;
+        border: 1px solid none;
+        border-radius: 50%;
+    }
+
+/* Citazione */
+.citazione{
+    background-color: #e22d0e;
+    color: white;
+    padding: 10%;
+    font-size: 1.5em;
+}
+
+.citazione h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+}
+
+cite{
+    font-size: 1.3em;
+}
+
+.citazione h4{
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.citazione p{
+    margin: 0;
+    font-size: 0.9em;
+}
+/* Card */
+.card{
+    border: 1px solid #dee1e3;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    border-radius: 1%;
+}
+.card img{
+    max-width: 100%;
+}
+
+.card p{
+    font-size: 1.8em;
+    margin: 5%
+}
+
+.card h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.0em;
+}
+/* Footer */
+footer{
+    background-color: #25a2c3;
+    color: white;
+    padding: 10%;
+    font-size: 2em;
+}
+
+footer h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+}
+
+footer a{
+    color: white;
+    display: block;
+}
+
+footer p{
+    margin: 0;
+}
+
+.copyright a{
+    display: inline;
+}
+
+address{
+    font-style: normal;
+}
+
+hr{
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

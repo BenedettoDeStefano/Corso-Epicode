@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@300&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    line-height: 1.65;
+    color: #393d41;
+}
+
+header {
+    background-color: black;
+    max-width: 100%;
+    padding: 2% 2%;
+    margin-left: 0;
+}
+
+header img{
+    width: 15%;
+}
+
+.introduzione{
+    text-align: center;
+    background-image: url(/ProgettoSettimana01/assets/img/banner.jpg);
+    background-size:cover;
+    padding: 8%;
+    font-size: 1.3em;
+}
+
+.introduzione h1{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-size: 1.3em;
+}
+
+.introduzione a{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.0rem;
+    border-radius: 5%;
+    padding: 1% 2%;
+}
+
+.introduzione p{
+    font-size: 0.9em;
+    padding: 5%;
+    margin: 0% 15%;
+
+}
+
+.informazioni{
+    width: 80%;
+    font-size: 1em;
+    text-align: end;
+    display: inline;
+}
+
+.informazioni h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 100%;
+    font-size: 1.0em;
+    }
+
+.circolare{
+        float: left;
+        width: 20%;
+        margin-left: 20%;
+        margin-right: 5%;
+        border: 1px solid none;
+        border-radius: 50%;
+    }
+
+    .testo{
+        text-align: left;
+        font-size: 1.3em;
+    }
+
+    .testo-titolo{
+        text-align: left;
+    }
+
+    .citazione{
+        background-color: #e22d0e;
+        color: white;
+        padding: 3%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .citazione h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5em;
+    }
+    
+    cite{
+        font-size: 1.3em;
+    }
+    
+    .citazione h4{
+        font-size: 1.4em;
+        margin: 0;
+    }
+    
+    .citazione p{
+        margin: 0;
+        font-size: 0.9em;
+    }
+
+    .card{
+        border: 1px solid #dee1e3;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+        border-radius: 1%;
+    }
+    .card img{
+        max-width: 100%;
+    }
+    
+    .card p{
+        font-size: 1.2em;
+        margin: 5%;
+        text-align: center;
+    }
+    
+    .card h3{
+        color: #25a2c3;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    table{
+        margin: 5%;
+    }
+
+    footer{
+        background-color: #25a2c3;
+        color: white;
+        padding: 10%;
+        font-size: 2em;
+    }
+    
+    footer h2{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8em;
+        text-align: center;
+    }
+    
+    footer a{
+        margin: 0% 30%;
+        color: white;
+    }
+    
+    footer p{
+        margin: 0% 30%;
+        display: inline block;
+    }
+    
+    
+    address{
+        font-style: normal;
+        margin: 0% 30%;
+    }
+    
+    hr{
+        width: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
