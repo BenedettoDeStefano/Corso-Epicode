@@ -11,7 +11,14 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-document.getElementById('esercizio1').innerHTML = '<h1>Datatype Javascript</h1><ul><li>String</li><li>Number</li><li>Boolean</li><li>date</li><li>null</li><li>Undefined</li> <p><strong>String:</strong> è un semplice testo. Più nello specifico è una sequenza di caratteri e viene scritta in sempre tra apici o virgolette.</p> <p><strong>Number: </strong>è un dato di tipo numerico. Può essere quindi un numero intero o anche decimale.</p> <p><strong>Boolean:</strong>Un dato che può assumere solo i valori true (vero) o false (falso).</p><p><strong>Date: </strong>Dato che memorizza data e orario.</p><h2> Data Type primitivi:</h2><p><strong>Null:</strong> Si usa quando crei una variabile alla quale intenzionalmente non assegni un oggetto.</p><p><strong>Undefined:</strong> Quando causalmente manca un oggetto.</p>'
+/* Datatype Javascript:
+String: è un semplice testo. Più nello specifico è una sequenza di caratteri e viene scritta in sempre tra apici o virgolette.
+Number: è un dato di tipo numerico. Può essere quindi un numero intero o anche decimale.
+Boolean: Un dato che può assumere solo i valori true (vero) o false (falso).
+Date: Dato che memorizza data e orario.
+Data Type primitivi:
+Null: Si usa quando crei una variabile alla quale intenzionalmente non assegni un oggetto.
+Undefined: Quando causalmente manca un oggetto */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
