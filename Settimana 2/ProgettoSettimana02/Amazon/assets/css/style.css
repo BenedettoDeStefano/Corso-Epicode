@@ -1,0 +1,140 @@
+/* reset */
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E9EDEE;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* top_bar */
+#top_bar{
+    background-color: #222F3F;
+    padding: 1%;
+}
+
+.logo_amazon {
+    width: 8%;
+    padding-left: 1%;
+}
+/* Menù navigazione */
+nav{
+    background-color: #364758;
+    padding: 0.5%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+li{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin-right: 1%;
+}
+
+/* Inizio Contenuto */
+.content{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.line{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    background-color: #F56600;
+    padding: 0.5%;
+}
+
+/* Primo Banner */
+#banner1{
+    background-image: url(../img/bg-image.png);
+    background-size:contain;
+    color: white;
+    padding: 2.8%;
+    margin-bottom: 1.5em;
+}
+/* Secondo Banner */
+#banner2{
+    background-color: white;
+    margin-bottom: 1.5em;
+}
+
+
+.card{
+    display: inline-block;
+    height: 21em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 20%;
+    height: 20em;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
+    margin: 1em;
+    min-width: 20%;
+}
+/* Terz Banner */
+#banner3 img{
+    width: 100%;
+
+}
+
+/* Quarto Banner */
+#banner4 img{
+    width: 100%;
+}
+
+/* Footer */
+.back {
+    text-align: center;
+    padding: 1%;
+    background-color: #364758;
+}
+
+.back a {
+    color: white;
+}
+
+#botton_bar{
+    text-align: center;
+    background-color: #222F3F;
+    padding: 5%;
+    
+}
+
+#botton_bar img{
+    width: 15%;
+}
+
+/* Formattazione testi generali */
+
+#testo{
+    padding-top: 1em;
+    padding-left: 1em;
+    text-align: left;
+}
+
+#testo p{
+    margin: 0;
+}
+
+
+.shop p{
+    margin-top: 0;
+    display: inline-block ;
+}
+
+.green{
+    font-weight: 900;
+    color: #42868e;
+    margin: 0;
+}
