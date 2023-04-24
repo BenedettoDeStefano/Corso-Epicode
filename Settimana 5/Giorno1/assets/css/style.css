@@ -361,4 +361,8 @@ footer a {
     table td{
         border: 1px solid black;
     }
+
+    a{
+        color: red;
+    }
   }
