@@ -11,6 +11,7 @@ html, body{
     width: 100vw;
 }
 
+
 /* nav bar */
 
 header{
@@ -20,19 +21,14 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1;
- 
-   
-}
+ }
 
 #nav_bar{
-    
     display: flex;
     justify-content:space-between;
     align-items: center;
     padding: 10px;
     width: 64%;
-    
-  
 }
 
 #nav_bar ul{
@@ -72,9 +68,18 @@ header{
     transition: 0.5s ease; 
     
 }
-.nav-transparent { 
-   
+.nav-transparent {  
     background-color: none;
+    transition: 0.5s ease;
+}
+
+.btn-colored { 
+    background-color: green;
+    transition: 0.5s ease; 
+    
+}
+.btn-transparent {  
+    background-color: black;
     transition: 0.5s ease;
 }
 
@@ -96,8 +101,6 @@ header{
    padding-top: 4.5rem;
     
 }
-
-
 
 #top_bar h1{
     font-size: 7rem;
@@ -129,21 +132,19 @@ header{
     transition: 0.5s;
 }
 
-/* article */
+/* article_trending_on_medium */
 
 #trending_on_medium{
-    width: 48%;
+    width: 47%;
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    
 }
 
 #trending_on_medium h3{
     font-size: 1.5em;
     margin-left: 10px;
 }
-
 
 #all_content{
     width: 64%;
@@ -174,7 +175,16 @@ header{
 }
 
 
-/* last section */
+/* article_last_section */
+#all_section{
+    display: flex;
+    justify-content: center;
+}
+
+#two_section{
+    width: 64%;
+    display: flex;
+}
 
 .number_article{
     font-size: 3rem;
@@ -194,24 +204,24 @@ header{
 
 
 #all_articles{
-    width: 50%;
+    width: 70%;
 }
 
-#single_article{
+.single_article{
     display: flex;
     align-items: center;
     font-size: 1.6em;
 }
 
-#single_article:hover{
+.single_article:hover{
     background-color:#FFc017;
 }
 
-#single_article h3{
+.single_article h3{
     margin: 0;
 }
 
-#single_article p{
+.single_article p{
     color: grey;
 }
 
@@ -237,16 +247,6 @@ header{
 }
 
 
-#all_section{
-    display: flex;
-    justify-content: center;
-}
-
-#two_section{
-    width: 64%;
-    display: flex;
-    
-}
 #interessi{
     display: flex;
     justify-content: center;
@@ -282,22 +282,26 @@ header{
 
 
 #dimension_interessi{
-width: 40%;
-
+width: 71%;
 
 }
 
 
 
+/* media Queries */
+
+
 @media screen and (max-width : 768px){
 
     #nav_bar{
-        padding: 0;
+        padding: 10px;
+        width: 90%;
     }
 
     #nav_bar ul{
         font-size: 1em;
     }
+
 
     #nav_bar button{
         width: 120px;
@@ -324,14 +328,19 @@ width: 40%;
     }
 
     #all_content{
-        width: 100%;
+        width: 90%;
     }
 
    #two_section{
-    display: inline-block;
-    width: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
    }
    
+   #interessi{
+    position: static;
+   }
+
    #all_articles{
     width: 100%;
    
@@ -346,18 +355,31 @@ width: 40%;
 }
 
 @media screen and (max-width: 488px){
-      #nav_bar{
+    #nav_bar{
         width: 100%;
-        font-size: 0.6em;
-        margin-top: 15px;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    #nav_bar ul{
+        font-size: 0.6em
     }
 
     #nav_bar img{
         width: 100px;
     }
     
+    #nav_bar button{
+        width: 90px;
+        height: 29px;
+    }
+
+    #line{
+        top: 55px;
+    }
+
     #top_bar h1{
-        font-size: 5em;
+        font-size: 5.5em;
     }
 
     #top_bar p{
@@ -369,7 +391,7 @@ width: 40%;
     }
     
     #content_trending{
-        width: 100%;
+        width: 90%;
     }
 
     #all_content{
@@ -378,9 +400,28 @@ width: 40%;
         
     }
 
+    #two_section{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+       }
+       
+       #interessi{
+        position: static;
+       }
 
+       #dimension_interessi{
+        width: 98%;
+       }
+      
 
-  
+        .img_article{
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
 }
+}
+
+
 
 
