@@ -1,0 +1,25 @@
+$colorePrincipale: #7550FE;
+$coloreBackgound: #F5F4F8;
+$colorIcons : #FFEEDA;
+$colorIconsNav : #F5F4F8;
+
+
+#hero{
+    background-color: $colorePrincipale;
+}
+
+.background{
+    background-color: $coloreBackgound;
+}
+
+.myicons{
+    background-color: $colorIcons;
+}
+
+.myiconsnav{
+    background-color: $colorIconsNav;
+}
+
+nav button:hover{
+    color: $colorePrincipale;
+}

@@ -1,0 +1,16 @@
+@import "./colors.scss";
+
+
+.noMarker{
+    list-style: none;
+}
+
+.arrowLeft{
+    position: absolute;
+    left: -20%;
+}
+
+.arrowRight{
+    position: absolute;
+    right: -9%;
+}

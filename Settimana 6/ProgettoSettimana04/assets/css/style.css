@@ -1,0 +1,33 @@
+#hero {
+  background-color: #7550FE;
+}
+
+.background {
+  background-color: #F5F4F8;
+}
+
+.myicons {
+  background-color: #FFEEDA;
+}
+
+.myiconsnav {
+  background-color: #F5F4F8;
+}
+
+nav button:hover {
+  color: #7550FE;
+}
+
+.noMarker {
+  list-style: none;
+}
+
+.arrowLeft {
+  position: absolute;
+  left: -20%;
+}
+
+.arrowRight {
+  position: absolute;
+  right: -9%;
+}/*# sourceMappingURL=style.css.map */
