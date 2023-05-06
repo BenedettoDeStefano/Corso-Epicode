@@ -1,5 +1,10 @@
 @import "./colors.scss";
 
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .noMarker{
     list-style: none;

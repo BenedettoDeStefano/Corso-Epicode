@@ -18,6 +18,12 @@ nav button:hover {
   color: #7550FE;
 }
 
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .noMarker {
   list-style: none;
 }
