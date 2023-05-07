@@ -18,6 +18,10 @@ nav button:hover {
   color: #7550FE;
 }
 
+.green_fluo {
+  background-color: #1ACB98;
+}
+
 .noMarker {
   list-style: none;
 }
@@ -30,4 +34,11 @@ nav button:hover {
 .arrowRight {
   position: absolute;
   right: -9%;
+}
+
+html, body {
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=style.css.map */

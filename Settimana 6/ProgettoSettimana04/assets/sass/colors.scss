@@ -2,6 +2,7 @@ $colorePrincipale: #7550FE;
 $coloreBackgound: #F5F4F8;
 $colorIcons : #FFEEDA;
 $colorIconsNav : #F5F4F8;
+$colorGreen : #1ACB98;
 
 
 #hero{
@@ -22,4 +23,8 @@ $colorIconsNav : #F5F4F8;
 
 nav button:hover{
     color: $colorePrincipale;
+}
+
+.green_fluo{
+    background-color: $colorGreen;
 }

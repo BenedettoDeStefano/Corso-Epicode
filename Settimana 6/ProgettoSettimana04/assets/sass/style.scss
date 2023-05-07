@@ -1,15 +1,10 @@
 @import "./colors.scss";
+@import "./navBar.scss";
+@import "./cards.scss";
 
-.noMarker{
-    list-style: none;
-}
-
-.arrowLeft{
-    position: absolute;
-    left: -20%;
-}
-
-.arrowRight{
-    position: absolute;
-    right: -9%;
+html,body{
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
 }
