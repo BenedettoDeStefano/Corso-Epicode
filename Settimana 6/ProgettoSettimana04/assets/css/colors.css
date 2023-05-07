@@ -28,25 +28,4 @@ nav button:hover {
 /*background*/
 .background {
   background-color: #F5F4F8;
-}
-
-.noMarker {
-  list-style: none;
-}
-
-.arrowLeft {
-  position: absolute;
-  left: -20%;
-}
-
-.arrowRight {
-  position: absolute;
-  right: -9%;
-}
-
-html, body {
-  box-sizing: border-box;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=colors.css.map */

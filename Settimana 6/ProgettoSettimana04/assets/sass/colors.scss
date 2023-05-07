@@ -5,18 +5,8 @@ $colorIconsNav : #F5F4F8;
 $colorGreen : #1ACB98;
 
 
-#hero{
-    background-color: $colorePrincipale;
-}
 
-.background{
-    background-color: $coloreBackgound;
-}
-
-.myicons{
-    background-color: $colorIcons;
-}
-
+/* navbar */
 .myiconsnav{
     background-color: $colorIconsNav;
 }
@@ -28,3 +18,27 @@ nav button:hover{
 .green_fluo{
     background-color: $colorGreen;
 }
+
+.green_fluo:hover{
+    background-color: $colorGreen;
+}
+
+/* hero */
+#hero{
+    background-color: $colorePrincipale;
+}
+
+/* top bar */
+.myicons{
+    background-color: $colorIcons;
+}
+
+/*background*/
+
+.background{
+    background-color: $coloreBackgound;
+}
+
+
+
+
