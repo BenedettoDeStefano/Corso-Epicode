@@ -30,6 +30,10 @@ nav button:hover {
   color: #FFAA46;
 }
 
+.violet_difficulty {
+  color: #7550FE;
+}
+
 /*background*/
 .background {
   background-color: #F5F4F8;
