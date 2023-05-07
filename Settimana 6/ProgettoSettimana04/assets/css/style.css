@@ -25,6 +25,11 @@ nav button:hover {
   background-color: #FFEEDA;
 }
 
+/* card */
+.yellow_reating {
+  color: #FFAA46;
+}
+
 /*background*/
 .background {
   background-color: #F5F4F8;

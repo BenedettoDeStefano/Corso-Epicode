@@ -3,6 +3,7 @@ $coloreBackgound: #F5F4F8;
 $colorIcons : #FFEEDA;
 $colorIconsNav : #F5F4F8;
 $colorGreen : #1ACB98;
+$colorReating : #FFAA46;
 
 
 
@@ -31,6 +32,11 @@ nav button:hover{
 /* top bar */
 .myicons{
     background-color: $colorIcons;
+}
+
+/* card */
+.yellow_reating{
+    color: $colorReating;
 }
 
 /*background*/
