@@ -7,6 +7,11 @@ nav button:hover {
   color: #7550FE;
 }
 
+.hoverButton:hover {
+  background-color: #7550FE;
+  color: white;
+}
+
 .green_fluo {
   background-color: #1ACB98;
 }
