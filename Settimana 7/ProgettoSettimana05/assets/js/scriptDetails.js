@@ -26,7 +26,7 @@ const riga = document.getElementById('riga')
          
         riga.innerHTML += `<div class="col-6 col-md-4 col-lg-3 mb-4 colonna"><div class="card h-100">
         <img src="${prodotti.imageUrl}" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body">      
           <h5 class="card-title">${prodotti.name}</h5>
           <p class="card-text">${prodotti.brand}</p>
           <p class="card-text">${prodotti.description}</p>
