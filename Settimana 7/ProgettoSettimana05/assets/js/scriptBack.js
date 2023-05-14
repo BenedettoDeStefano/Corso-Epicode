@@ -1,8 +1,8 @@
+//Pagina Back
 
-
+//----------Bottone crea con richiesta POST per creare il prodotto---------
 
 const btnCrea = document.getElementById('crea')
-
 btnCrea.addEventListener('click', (event) => {
     event.preventDefault();
     articolo()
@@ -36,8 +36,6 @@ async function articolo() {
             },
             body: JSON.stringify(singleProduct)
         });
-
-
         if (response.ok) {
             const data = await response.json();
             alert('Elemento creato')
@@ -52,7 +50,7 @@ async function articolo() {
 
 }
 
-// ---------------------------------------------------------- //
+//----------Richiesta GET per ricevere l'id del prodotto---------
 
 const idProdotto = new URLSearchParams(location.search).get('id');
 const url = "https://striveschool-api.herokuapp.com/api/product/"
@@ -76,11 +74,9 @@ async function idGet() {
             }
         }
         )
-
         if (!response.ok) {
             throw new Error(`${response.status}`)
-        } 
-
+        }
         const ripopola = await response.json()
         console.log(ripopola)
 
@@ -97,15 +93,15 @@ async function idGet() {
     }
 }
 
-// ---------------------------------------------------------- //
+//----------Bottone modifica con richiesta PUT per modificare il prodotto---------
 
 const btnModifica = document.getElementById('modifica')
 btnModifica.addEventListener('click', (event) => {
     event.preventDefault()
-    var conferma = confirm('sicuro sicuro?')
-    if (conferma){
-   return modificaProd(),
-   alert('Elemento Modificato')
+    var conferma = confirm('Sei sicuro di voler modificare il prodotto?')
+    if (conferma) {
+        return modificaProd(),
+            alert('Elemento Modificato')
     }
 })
 
@@ -141,61 +137,61 @@ async function modificaProd() {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(singleProduct),
-            
+
         }
         )
         if (!response.ok) {
             throw new Error(`${response.status}`)
-        } else{
-        console.log('modifica effettuata',)
+        } else {
+            console.log('modifica effettuata',)
         }
     } catch (errore) {
         console.log('Error with async/await:', errore.message);
     }
 }
 
-// ---------------------------------------------------------- //
+//----------Bottone delete con richiesta DELETE per eliminare il prodotto---------
 
-    
+
 const btnElimina = document.getElementById('delete')
 btnElimina.addEventListener('click', (event) => {
     event.preventDefault()
-    var conferma = confirm('sicuro sicuro?')
-    if (conferma){
-    return eliminaProd(),
-    alert('Elemento Eliminato') 
-}
+    var conferma = confirm('Sei sicuro di voler eliminare il prodotto?')
+    if (conferma) {
+        return eliminaProd(),
+            alert('Elemento Eliminato')
+    }
 })
 
 
-    async function eliminaProd() {
-        try {
-    
-            const response = await fetch(`${url}${idProdotto}`, {
-                method: "DELETE",
-                headers: {
-                    Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVlMDFhZTg4Zjc0MDAwMTQyODc0NzEiLCJpYXQiOjE2ODM4ODI0MTQsImV4cCI6MTY4NTA5MjAxNH0.cExNEK-meKjDpCpXEHq9hV9xn42H5brihueF97wNzkQ"   
-                }
+async function eliminaProd() {
+    try {
+
+        const response = await fetch(`${url}${idProdotto}`, {
+            method: "DELETE",
+            headers: {
+                Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDVlMDFhZTg4Zjc0MDAwMTQyODc0NzEiLCJpYXQiOjE2ODM4ODI0MTQsImV4cCI6MTY4NTA5MjAxNH0.cExNEK-meKjDpCpXEHq9hV9xn42H5brihueF97wNzkQ"
             }
-            )
-            if (!response.ok) {
-                throw new Error(`${response.status}`)
-            } else {
-                
-                console.log('prodotto eliminato',)
-            }
-        } catch (errore) {
-            console.log('Error with async/await:', errore.message);
         }
+        )
+        if (!response.ok) {
+            throw new Error(`${response.status}`)
+        } else {
+
+            console.log('prodotto eliminato',)
+        }
+    } catch (errore) {
+        console.log('Error with async/await:', errore.message);
     }
-
-    
-
-    // ---------------------------------------------------------- //
+}
 
 
-    const btnReset = document.getElementById('resetBtn')
-    btnReset.addEventListener('click', (event) => {
+
+//----------Bottone reset per svuotare i campi ".reset()" ---------
+
+
+const btnReset = document.getElementById('resetBtn')
+btnReset.addEventListener('click', (event) => {
     event.preventDefault()
     document.getElementById('registraArticolo').reset()
 })
