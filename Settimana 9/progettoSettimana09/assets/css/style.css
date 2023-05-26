@@ -73,6 +73,7 @@ h5 {
     cursor: pointer;
     transform: scale(1.1);
     z-index: 1;
+    background-color: #9198e5;
   }
 
   #warning{

@@ -85,29 +85,29 @@ function mostra() : void{
     riga!.innerHTML += `
     <div class="d-flex flex-column">
     <div class="d-flex">
-     <div class="card border-success mb-3 shadow card_generated" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-success">Utente1</div>
-    <div class="card-body text-success">
+     <div class="card  mb-3 shadow card_generated" style="max-width: 18rem;">
+    <div class="card-header bg-transparent ">Utente1</div>
+    <div class="card-body ">
       <h4>Credito residuo: ${FirstUser.numero404()} €</h4>
     </div>
-    <div class="card-footer bg-transparent border-success">Vodafone</div>
+    <div class="card-footer bg-transparent text-danger">Vodafone</div>
   </div>
 
-  <div class="card border-success mb-3 ms-4 shadow card_generated" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-success">Utente2</div>
-    <div class="card-body text-success">
+  <div class="card  mb-3 ms-4 shadow card_generated" style="max-width: 18rem;">
+    <div class="card-header bg-transparent ">Utente2</div>
+    <div class="card-body">
       <h4>Credito residuo: ${SecondUser.numero404()} €</h4>
 
     </div>
-    <div class="card-footer bg-transparent border-success">Wind3</div>
+    <div class="card-footer bg-transparent text-warning">Wind3</div>
   </div>
 
-  <div class="card border-success mb-3 ms-4 shadow card_generated" style="max-width: 18rem;">
-    <div class="card-header bg-transparent border-success">Utente3</div>
-    <div class="card-body text-success">
+  <div class="card  mb-3 ms-4 shadow card_generated" style="max-width: 18rem;">
+    <div class="card-header bg-transparent ">Utente3</div>
+    <div class="card-body ">
       <h4>Credito residuo: ${ThirdUser.numero404()} €</h4>
     </div>
-    <div class="card-footer bg-transparent border-success">Tim</div>
+    <div class="card-footer bg-transparent text-primary">Tim</div>
   </div>
     </div>
     <div>
