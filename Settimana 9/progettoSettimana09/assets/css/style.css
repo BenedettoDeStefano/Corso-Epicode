@@ -1,0 +1,89 @@
+html, body{
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.myCard{
+    width: 18rem;
+    border: 5px solid black;
+    border-radius: 18px;
+    box-shadow: 10px 10px 10px 0px;
+}
+
+
+.display{
+    height: 480px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.icon{
+    color: red;
+}
+
+.icon_2 {
+    color: green;
+}
+
+.img_68{
+    width: 68px;
+}
+
+.img_60{
+    width: 60px;
+}
+
+.img_68:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img_60:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box_bottom{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(218, 216, 216);
+}
+
+h5 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: color s ease-in-out;
+  }
+
+  .arrow{
+    width: 100px;
+    height: 100px;
+    animation: bounce 1s infinite alternate;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-20px);
+    }
+  }
+
+  .card_generated:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  #warning{
+    color: red;
+    margin-top: 5px;
+  }
+
+  .frame{
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .sfondo{
+    background: linear-gradient(#e66465, #9198e5);
+  }
